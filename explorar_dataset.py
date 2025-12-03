@@ -20,3 +20,5 @@ print("valores unicos por colunas:")
 for col in df.columns:
     print(f"\nColuna: {col}")
     print(df[col].unique())
+ 
+ 
